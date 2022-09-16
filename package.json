@@ -1,0 +1,22 @@
+{
+  "name": "themekif",
+  "publisher": "dereakif",
+  "displayName": "Themekif",
+  "description": "Themekif - My personal color theme!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "themekif",
+        "uiTheme": "vs-dark",
+        "path": "./themes/themekif-color-theme.json"
+      }
+    ]
+  }
+}
